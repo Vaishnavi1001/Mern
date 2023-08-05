@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="w.css" />
+    <title>Document</title>
+    <style>
+        .box{
+            width:100px;
+            height:100px;
+            background-color: #ff457f;
+            transition: all 0.3s ;
+        }
+        .box:hover{
+            width:200px;
+            height:200px;
+            background-color: lightgreen;
+            border-radius: 0px 50%;
+          
+        }
+        .myimage{
+            width:100px;
+            height:100px;
+            border-radius: 50%;
+        }
+        .myimage:hover{
+            width:200px;
+            height:200px;
+            transform:rotate(30deg);
+        }
+        .mybutton{
+            background-color:#ff457f ;
+            padding:5px 20px;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            text-decoration: none;
+        }
+        .mybutton:hover{
+            background-color: aqua;
+            color:black;
+            border-radius: 0px;
+        }
+        /* a{
+            background-color: #ff457f;
+            color: white;
+            text-decoration: none;
+            padding:5px 20px;
+            border-radius: 5px;
+            font-size: 18px;
+            font-family: sans-serif;
+        } */
+    </style>
+</head>  
+<body>
+    <a href="#" class="mybutton">hello</a>
+    <button class="mybutton">home</button>
+    <br><br>
+    <img class="myimage"src="https://th.bing.com/th/id/OIP.jQRPXi9_h4nTPiJOXAoFxQHaFG?pid=ImgDet&rs=1" alt="myimage">
+    <br><br>
+    <div class="box"></div>
+</body>
