@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            /* margin: 0;
+            font-family: poppins, Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            color: #000000;
+            background: #074583;
+            background-image:url(img.gif) ;
+            background-size:cover;
+            background-attachment: middle;
+            background-repeat: no-repeat; */
+        }
+
+        .container{
+            margin: 0 auto;
+            width: 100%;
+            max-width: 1140px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .btn {}
+
+        .btn:hover {
+            background-color: #00868f;
+            border-radius: 9px;
+        }
+    </style>
+</head>
+
+<body>
+    <fieldset>
+        <div class="login">
+            <div class="container">
+                <h2>Login here</h2>
+                <div class="column-right">
+                    <div class="login-form">
+                        <form>
+                            <p><label for="name">USERNAME/EMAIL ADDRESS<span>*</span></label>
+                                <br>
+                                <input type="text" placeholder="Username/Email" required>
+                            </p>
+                            <br>
+                            <p>
+                                <label for="password">PASSWORD<span>*</span></label><br>
+                                <input type="text" placeholder="Password">
+                            </p>
+                            <br>
+                            <p>
+                                <label for="password">CONFIRM PASSWORD<span>*</span></label><br>
+                                <input type="text" placeholder="Confirm password" required>
+                            </p>
+                            <br>
+                            <p>
+                                <label for="gender">GENDER:</label> <br>
+                                <label for="male">Male</label>
+                                <input type="radio" id="male" name="gender">
+                                <label for="female">Female</label>
+                                <input type="radio" id="female" name="gender">
+                            </p><br>
+                            <p>
+                                <label for="options">ACCESSORIES</label><br>
+                                <select>
+                                    <option>CLOTHES</option>
+                                    <option>GROCERIES</option>
+                                    <option>SHOES</option>
+                                    <option>STATIONARY</option>
+                                </select>
+                            </p><br>
+                            <p>
+                                <label for="country">YOUR ADDRESS</label><br>
+                                <input type="text" placeholder="enter your address" required>
+                            </p><br>
+                            <button type="submit" class="btn">SUBMIT</button>
+    </fieldset>
+    </form>
+    </div>
+    </div>
+    </div>
+    </div>
+</body>
+
+</html>
